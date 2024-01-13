@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "paths": {
+        "@app/*": ["./src/*"],
+        "@config/*": ["./src/config/*"],
+        "@controller/*": ["./src/controller/*"],
+        "@service/*": ["./src/service/*"],
+        "@model/*": ["./src/model/*"],
+        "@middlewares/*": ["./src/middlewares/*"],
+        "@helpers/*": ["./src/helpers/*"],
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  } 
